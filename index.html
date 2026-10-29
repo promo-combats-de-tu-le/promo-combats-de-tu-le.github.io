@@ -94,6 +94,7 @@ h1 em{font-style:normal;color:var(--garance)}
 .nav a small{color:var(--acier);font-size:13px}
 .nav a.main{background:var(--craie);color:var(--nuit);border-color:var(--craie)}
 .nav a.main small{color:#3d4955}
+.nav a:last-child:nth-child(odd){grid-column:1/-1}
 @media (max-width:820px){.s3{place-items:start stretch}.s3 .wrap{grid-template-columns:minmax(0,1fr);padding-bottom:40px}.s3 canvas{max-height:42vh;width:auto;height:42vh}.s3 .txt{text-align:center;justify-items:center}}
 /* fil de progression */
 .prog{position:fixed;z-index:20;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.08)}
@@ -147,10 +148,11 @@ h1 em{font-style:normal;color:var(--garance)}
         <p>Chaque ligne relie Coëtquidan à l'une des 81 communes où vivent aujourd'hui les camarades, et 3 autres vivent hors de métropole.</p>
         <div class="legend"><span><i style="background:var(--garance)"></i>Coëtquidan</span><span><i style="background:var(--laiton)"></i>Résidence d'un camarade</span></div>
         <div class="nav">
-          <a class="main" href="carte.html"><b>Carte</b><small>Où vit chacun</small></a>
+          <a class="main" href="carte.html"><b>Carte 🔒</b><small>Où vit chacun, qui habite près de chez moi</small></a>
           <a href="annuaire.html"><b>Annuaire 🔒</b><small>Téléphones, mails, photos</small></a>
           <a href="commandements.html"><b>Commandements 🔒</b><small>L'empreinte de la promo</small></a>
           <a href="cd.html"><b>CD 🔒</b><small>13 chants</small></a>
+          <a href="photos.html"><b>Photos 🔒</b><small>212 photos, de 1952 à 2025</small></a>
         </div>
         <button class="quiet" id="again">Revoir l'ouverture</button>
       </div>
