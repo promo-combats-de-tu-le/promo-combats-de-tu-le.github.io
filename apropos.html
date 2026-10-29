@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>À propos et charte</title>
+<link rel="icon" href="assets/insigne-icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700;800&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{--nuit:#0a0f16;--nuit-2:#111a24;--acier:#93a1ae;--craie:#eef2f5;--azur:#a9d8f2;--garance:#e0333f;--laiton:#c9a65a;--trait:rgba(255,255,255,.12);
+  --display:"Saira Extra Condensed","Arial Narrow",Arial,sans-serif;--body:"Barlow","Segoe UI",Arial,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--nuit);color:var(--craie);font:17px/1.55 var(--body);
+  padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60vw 40vh at 85% -5%,rgba(169,216,242,.10),transparent 70%),radial-gradient(50vw 40vh at -10% 110%,rgba(201,166,90,.08),transparent 70%)}
+.wrap{max-width:900px;margin:0 auto}
+.eyebrow{font:600 12px var(--body);letter-spacing:.22em;text-transform:uppercase;color:var(--azur)}
+h1{margin:6px 0 10px;font:800 clamp(44px,8vw,84px)/.9 var(--display);text-transform:uppercase;text-wrap:balance}
+h1 em{font-style:normal;color:var(--laiton)}
+.lead{margin:0 0 22px;color:#c9d2da;font-size:19px;max-width:62ch}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px;padding:0;list-style:none}
+.toc a{display:inline-block;padding:7px 13px;border:1px solid var(--trait);border-radius:999px;color:var(--craie);text-decoration:none;font:700 16px var(--display);letter-spacing:.08em;text-transform:uppercase}
+.toc a:hover,.toc a:focus-visible{border-color:var(--laiton);color:var(--laiton);outline:none}
+.part{margin:0 0 34px;padding:24px 22px;border:1px solid var(--trait);border-radius:16px;background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01));scroll-margin-top:16px}
+.part h2{margin:0 0 4px;font:800 clamp(30px,5vw,44px)/1 var(--display);text-transform:uppercase;display:flex;gap:14px;align-items:baseline}
+.part h2 .no{color:var(--laiton);font-size:.8em}
+.part .intro{color:var(--acier);margin:0 0 14px}
+.art{display:grid;grid-template-columns:44px 1fr;gap:4px 12px;padding:14px 0;border-top:1px solid var(--trait)}
+.art:first-of-type{border-top:0}
+.art .n{font:800 22px/1.2 var(--display);color:var(--azur)}
+.art h3{margin:0;font:700 21px/1.2 var(--display);letter-spacing:.04em;text-transform:uppercase}
+.art div{grid-column:2}
+.art p,.art ul{margin:4px 0 0}
+.art ul{padding-left:18px}
+.art li{margin:3px 0}
+.art li::marker{color:var(--laiton)}
+.no-go li::marker{content:"✕  ";color:var(--garance)}
+b{color:#fff;font-weight:600}
+.box{margin:14px 0 0;padding:14px 16px;border-left:3px solid var(--laiton);background:rgba(201,166,90,.07);border-radius:0 10px 10px 0;color:#dfe5ea}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid var(--trait)}
+th{font:700 15px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--acier)}
+.tw{overflow-x:auto}
+.engage{text-align:center;padding:30px 20px;border:1px solid rgba(201,166,90,.45);border-radius:16px;background:radial-gradient(80% 120% at 50% 0%,rgba(201,166,90,.12),transparent 70%)}
+.engage img{height:90px;width:auto;margin-bottom:8px}
+.engage p{margin:6px auto;max-width:56ch}
+.engage .motto{font:800 26px var(--display);text-transform:uppercase;letter-spacing:.06em;color:var(--laiton)}
+.foot{color:var(--acier);font-size:13px;text-align:center;margin-top:24px}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+@media (max-width:560px){.part{padding:18px 14px}.art{grid-template-columns:32px 1fr}.art .n{font-size:19px}body{font-size:16px}}
+</style>
+<style>
+.sitenav-wrap{background:#0a0f16;color:#eef2f5;border-radius:14px;padding:6px;max-width:var(--navmax,900px);margin:0 auto 18px;box-sizing:border-box;min-width:0;width:100%;overflow:hidden}
+.sitenav{display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none}
+.sitenav::-webkit-scrollbar{display:none}
+.sitenav a{flex:none;display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;color:#c9d2da;text-decoration:none;
+  font:700 17px/1 "Saira Extra Condensed","Barlow Condensed","Arial Narrow",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;border:1px solid transparent}
+.sitenav a:hover,.sitenav a:focus-visible{color:#fff;border-color:rgba(255,255,255,.22);outline:none}
+.sitenav a[aria-current="page"]{color:#0a0f16;background:#eef2f5}
+.sitenav a.home{padding:4px 12px 4px 4px;margin-right:auto;color:#eef2f5}
+.sitenav a.home img{height:34px;width:auto}
+.sitenav a.home span{font-size:15px;letter-spacing:.12em}
+@media (max-width:700px){.sitenav a{font-size:15px;padding:6px 9px}.sitenav a.home span{display:none}.sitenav a.home{padding:2px 6px 2px 2px}.sitenav a.home img{height:30px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="sitenav-wrap"><nav class="sitenav" aria-label="Rubriques du site">
+<a class="home" href="index.html" title="Retour à l’accueil"><img src="assets/insigne-icone.png" alt=""><span>Combats de Tu-Lé</span></a>
+<a href="carte.html">Carte</a>
+<a href="annuaire.html">Annuaire</a>
+<a href="commandements.html">Commandements</a>
+<a href="photos.html">Photos</a>
+<a href="cd.html">CD</a>
+<a href="apropos.html" aria-current="page">À propos</a>
+</nav></div>
+<header class="rv">
+  <div class="eyebrow">EMIA · Promotion Combats de Tu-Lé · 1992-1994</div>
+  <h1>À propos <em>&amp; charte</em></h1>
+  <p class="lead">Ce site et le groupe WhatsApp « Promo » n'existent que pour garder le lien entre camarades. Cette page dit d'où viennent les informations, comment elles sont protégées, et les règles que chacun s'engage à respecter, en ligne comme dans le groupe.</p>
+</header>
+<ul class="toc rv">
+  <li><a href="#site">Le site</a></li>
+  <li><a href="#donnees">Vos données</a></li>
+  <li><a href="#images">Images</a></li>
+  <li><a href="#whatsapp">Groupe WhatsApp</a></li>
+  <li><a href="#internet">Usage du site</a></li>
+  <li><a href="#droits">Vos droits</a></li>
+</ul>
+
+<section class="part rv" id="site">
+  <h2><span class="no">I</span>Le site</h2>
+  <p class="intro">Un outil privé, entre camarades, sans but commercial.</p>
+  <div class="art"><span class="n">1</span><h3>Objet</h3><div><p>Le site rassemble l'annuaire, la carte, les commandements, les photos et le CD de la promotion. Il sert à se retrouver, à se contacter, à fêter les anniversaires et à honorer la mémoire de nos camarades disparus.</p></div></div>
+  <div class="art"><span class="n">2</span><h3>Qui le tient</h3><div><p>Le site est tenu par <b>Yann Doutey</b>, administrateur du groupe « Promo », qui en est le responsable. Il est assisté pour la mise en forme et les mises à jour par un assistant numérique (Claude, d'Anthropic), qui travaille uniquement à partir des informations décrites ci-dessous.</p></div></div>
+  <div class="art"><span class="n">3</span><h3>Protection</h3><div><ul>
+    <li>Toutes les pages, sauf l'accueil et celle-ci, sont <b>chiffrées</b> : sans le mot de passe, leur contenu est illisible, même pour l'hébergeur.</li>
+    <li>Le site n'est <b>pas référencé</b> par les moteurs de recherche.</li>
+    <li>Ni publicité, ni mesure d'audience, ni cookie de suivi.</li>
+    <li>Le mot de passe est <b>changé périodiquement</b> ; le nouveau est donné dans le groupe.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">4</span><h3>Hébergement</h3><div><p>Le site est hébergé par GitHub Pages (GitHub Inc., États-Unis). Les polices de caractères sont chargées depuis Google Fonts, ce qui transmet l'adresse IP du visiteur à Google, comme sur la plupart des sites. Le fichier source de l'annuaire est conservé par l'administrateur sur son espace de stockage personnel.</p></div></div>
+</section>
+
+<section class="part rv" id="donnees">
+  <h2><span class="no">II</span>Vos données</h2>
+  <p class="intro">Uniquement ce que chacun a bien voulu communiquer, pour l'usage de la promo et rien d'autre.</p>
+  <div class="art"><span class="n">5</span><h3>Ce qui figure</h3><div>
+    <div class="tw"><table>
+      <tr><th>Information</th><th>Où elle apparaît</th></tr>
+      <tr><td>Nom, prénom, compagnie</td><td>Toutes les pages protégées</td></tr>
+      <tr><td>Grade et situation (active, réserve, 2<sup>e</sup> section, quitté l'institution)</td><td>Annuaire, commandements</td></tr>
+      <tr><td>Commune de résidence</td><td>Annuaire, carte</td></tr>
+      <tr><td>Téléphone, adresse électronique</td><td>Annuaire</td></tr>
+      <tr><td>Jour et mois de naissance</td><td>Anniversaires du jour</td></tr>
+      <tr><td>Temps de commandement (régiment, escadron, compagnie, batterie…)</td><td>Commandements</td></tr>
+      <tr><td>Portrait de 1992-1994</td><td>Annuaire, carte, anniversaires, In memoriam</td></tr>
+    </table></div></div></div>
+  <div class="art"><span class="n">6</span><h3>D'où elles viennent</h3><div><p>Des messages des camarades eux-mêmes, dans le groupe « Promo », en message privé à l'administrateur ou par courriel ; des fichiers de promotion déjà détenus par l'administrateur ; des photos publiées par les membres du groupe Facebook de la promotion ; des planches de portraits transmises par un camarade. Les dates de décès proviennent du fichier public des décès de l'Insee.</p></div></div>
+  <div class="art"><span class="n">7</span><h3>Ce qui n'y figure pas</h3><div><ul class="no-go">
+    <li>Aucune affectation en cours dans un service de renseignement, une unité spéciale ou une fonction protégée.</li>
+    <li>Aucune information sur les enfants, conjoints ou proches des camarades.</li>
+    <li>Aucune donnée de santé, d'opinion ou de religion.</li>
+    <li>Aucune adresse postale complète : la carte s'arrête à la commune.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">8</span><h3>À quoi elles servent</h3><div><p>Exclusivement à la vie de la promotion. Elles ne sont <b>jamais cédées, vendues ni transmises</b> à quiconque, y compris à une association, une amicale ou une administration.</p>
+  <p class="box">Chacun peut demander à tout moment qu'une information le concernant ne soit pas affichée : grade, commune, téléphone, date de naissance, photo. La demande est appliquée sans avoir à se justifier.</p></div></div>
+  <div class="art"><span class="n">9</span><h3>Nos disparus</h3><div><p>La page In memoriam rend hommage à nos camarades décédés, avec leur nom, leur compagnie, la date de leur décès et leur portrait de promotion. Leur famille peut demander à tout moment une modification ou un retrait.</p></div></div>
+</section>
+
+<section class="part rv" id="images">
+  <h2><span class="no">III</span>Les images</h2>
+  <p class="intro">Le droit à l'image de chacun prime sur l'envie de partager.</p>
+  <div class="art"><span class="n">10</span><h3>Portraits de promotion</h3><div><p>Les portraits de 1992-1994 ont été découpés dans les planches d'origine et restaurés (netteté, couleur, cadrage). <b>Les traits n'ont pas été modifiés</b> : aucun visage n'a été recréé ni transformé.</p></div></div>
+  <div class="art"><span class="n">11</span><h3>Photos de la galerie</h3><div><p>Les photos d'école, de Tu-Lé, des parrainages et des retrouvailles viennent du groupe Facebook de la promotion, où leurs auteurs les avaient déjà partagées. Elles sont stockées chiffrées. Les photos d'archives de 1952 restent sous droits réservés.</p></div></div>
+  <div class="art"><span class="n">12</span><h3>Règles pour tous</h3><div><ul>
+    <li>Ne partager que des photos <b>que l'on a prises</b> ou dont l'auteur est d'accord.</li>
+    <li>Ne pas diffuser une photo où un camarade est reconnaissable s'il pourrait s'y opposer : tenue de travail en opération, emprise militaire, famille, situation gênante.</li>
+    <li>Pas de photo d'emprise, de matériel ou de document sensible.</li>
+    <li>Ne pas retoucher, détourner ni soumettre à un outil d'intelligence artificielle le visage d'un camarade sans son accord.</li>
+    <li>Toute photo est <b>retirée sur simple demande</b> de la personne qui y figure.</li>
+  </ul></div></div>
+</section>
+
+<section class="part rv" id="whatsapp">
+  <h2><span class="no">IV</span>Charte du groupe WhatsApp</h2>
+  <p class="intro">Un groupe de plus de cent camarades, en activité, en réserve ou dans le civil : la qualité des échanges dépend de chacun.</p>
+  <div class="art"><span class="n">13</span><h3>Ce qu'on y partage</h3><div><ul>
+    <li>Nouvelles des uns et des autres, mutations, prises de commandement, départs, promotions.</li>
+    <li>Rendez-vous, retrouvailles, cérémonies, hommages.</li>
+    <li>Entraide : un conseil, un contact, un coup de main.</li>
+    <li>Souvenirs de Coët et de la promo.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">14</span><h3>Le ton</h3><div><p>Celui de la camaraderie : courtoisie, bienveillance, humour qui ne blesse personne. On répond à l'idée, jamais à la personne. Un désaccord se règle en message privé.</p></div></div>
+  <div class="art"><span class="n">15</span><h3>Ce qu'on n'y met pas</h3><div><ul class="no-go">
+    <li>Débats politiques, religieux ou polémiques sur l'institution : beaucoup d'entre nous sont tenus au devoir de réserve, et le groupe ne doit mettre personne en difficulté.</li>
+    <li>Informations classifiées ou sensibles : opérations, déploiements, effectifs, emplacements, emplois du temps d'autorités.</li>
+    <li>Publicité, démarchage, collectes non annoncées à l'administrateur.</li>
+    <li>Chaînes, rumeurs, contenus non vérifiés, vidéos choquantes.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">16</span><h3>Ce qui reste dans le groupe</h3><div><p>Les messages, numéros et photos du groupe <b>ne sortent pas du groupe</b> : pas de capture d'écran ni de transfert à l'extérieur sans l'accord de l'auteur.</p></div></div>
+  <div class="art"><span class="n">17</span><h3>Annonces graves</h3><div><p>Avant d'annoncer un décès, un accident ou une maladie, s'assurer que la famille est informée et d'accord, et prévenir l'administrateur. Les nouvelles de santé d'un camarade ne sont données que s'il le souhaite.</p></div></div>
+  <div class="art"><span class="n">18</span><h3>Le bon usage</h3><div><ul>
+    <li>Un échange à deux se poursuit en message privé.</li>
+    <li>Une réaction suffit souvent là où dix messages « +1 » encombrent.</li>
+    <li>Éviter les messages tard le soir ou très tôt, sauf urgence.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">19</span><h3>Modération</h3><div><p>L'administrateur peut supprimer un message contraire à la charte et le signale à son auteur en privé. En cas de manquement répété, il peut retirer un membre du groupe après l'avoir prévenu.</p></div></div>
+</section>
+
+<section class="part rv" id="internet">
+  <h2><span class="no">V</span>Usage du site</h2>
+  <p class="intro">Le mot de passe protège l'annuaire de tous : il engage chacun.</p>
+  <div class="art"><span class="n">20</span><h3>Le mot de passe</h3><div><ul>
+    <li>Il est réservé aux membres de la promotion : <b>ne le transmettez à personne d'autre</b>, ni ne le publiez.</li>
+    <li>« Rester connecté 30 jours » mémorise l'accès sur l'appareil : ne l'utilisez pas sur un ordinateur partagé.</li>
+    <li>En cas de perte ou de vol d'un téléphone connecté au site, prévenez l'administrateur : le mot de passe sera changé.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">21</span><h3>Ce qu'on ne fait pas</h3><div><ul class="no-go">
+    <li>Publier le lien accompagné du mot de passe, ou des captures de pages protégées, sur un réseau social ou un forum.</li>
+    <li>Extraire l'annuaire pour un fichier, une liste de diffusion ou un usage commercial, associatif ou politique.</li>
+    <li>Contacter un camarade pour lui vendre quelque chose au nom de la promo.</li>
+  </ul></div></div>
+  <div class="art"><span class="n">22</span><h3>Exactitude</h3><div><p>L'annuaire est mis à jour à partir de ce que chacun signale. Une erreur, un changement de grade, d'adresse ou de numéro : écrivez à l'administrateur, la correction est faite à la mise à jour suivante.</p></div></div>
+</section>
+
+<section class="part rv" id="droits">
+  <h2><span class="no">VI</span>Vos droits</h2>
+  <p class="intro">Chacun garde la main sur ce qui le concerne.</p>
+  <div class="art"><span class="n">23</span><h3>Accès, correction, retrait</h3><div><p>Chacun peut demander à voir ce qui le concerne, le faire corriger, le masquer ou le faire supprimer entièrement, y compris son portrait. Il suffit d'écrire à <b>Yann Doutey en message privé WhatsApp</b>. La demande est traitée dans les meilleurs délais et au plus tard sous un mois.</p></div></div>
+  <div class="art"><span class="n">24</span><h3>Quitter la promo en ligne</h3><div><p>Quitter le groupe WhatsApp ne retire pas automatiquement sa fiche du site. Pour que ce soit le cas, il suffit de le demander.</p></div></div>
+</section>
+
+<section class="engage rv">
+  <img src="assets/insigne.png" alt="Insigne de la promotion Combats de Tu-Lé">
+  <p class="motto">Engagement de chacun</p>
+  <p>En rejoignant le groupe « Promo » ou en ouvrant les pages protégées du site, chaque camarade s'engage à respecter cette charte, par égard pour les autres et pour l'honneur de la promotion.</p>
+</section>
+<p class="foot">Version du 29/10/2026 · Contact : Yann Doutey, administrateur du groupe « Promo »</p>
+</div>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
