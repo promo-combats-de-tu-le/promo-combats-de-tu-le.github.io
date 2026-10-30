@@ -100,10 +100,11 @@ th{font:700 15px var(--display);letter-spacing:.08em;text-transform:uppercase;co
   <div class="art"><span class="n">3</span><h3>Protection</h3><div><ul>
     <li>Toutes les pages, sauf l'accueil et celle-ci, sont <b>chiffrées</b> : sans le mot de passe, leur contenu est illisible, même pour l'hébergeur.</li>
     <li>Le site n'est <b>pas référencé</b> par les moteurs de recherche.</li>
-    <li>Ni publicité, ni mesure d'audience, ni cookie de suivi.</li>
+    <li>Ni publicité, ni cookie de suivi.</li>
+    <li>Une <b>mesure de fréquentation anonyme</b> (GoatCounter, sans cookie) compte les pages consultées, le type d'appareil et le pays. Elle n'enregistre pas l'adresse IP et ne permet pas de savoir qui consulte quoi.</li>
     <li>Le mot de passe est <b>changé périodiquement</b> ; le nouveau est donné dans le groupe.</li>
   </ul></div></div>
-  <div class="art"><span class="n">4</span><h3>Hébergement</h3><div><p>Le site est hébergé par GitHub Pages (GitHub Inc., États-Unis). Les polices de caractères sont chargées depuis Google Fonts, ce qui transmet l'adresse IP du visiteur à Google, comme sur la plupart des sites. Le fichier source de l'annuaire est conservé par l'administrateur sur son espace de stockage personnel.</p></div></div>
+  <div class="art"><span class="n">4</span><h3>Hébergement</h3><div><p>Le site est hébergé par GitHub Pages (GitHub Inc., États-Unis). Les polices de caractères sont chargées depuis Google Fonts, ce qui transmet l'adresse IP du visiteur à Google, comme sur la plupart des sites. Le compteur de fréquentation est fourni par GoatCounter, service indépendant. Le fichier source de l'annuaire est conservé par l'administrateur sur son espace de stockage personnel.</p></div></div>
 </section>
 
 <section class="part rv" id="donnees">
@@ -206,5 +207,6 @@ th{font:700 15px var(--display);letter-spacing:.08em;text-transform:uppercase;co
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 </script>
+<script data-goatcounter="https://tu-le.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
